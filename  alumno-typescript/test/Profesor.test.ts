@@ -33,4 +33,13 @@ describe("Profesor", () => {
     expect(profesor.legajo).toBe(54324);
     expect(profesor.materia).toBe("Matemáticas");
   });
+
+  test("un profesor debe tener un nombre, un legajo y una materia", () => {
+    const profesor = new Profesor("Pedro", 54325, "Matemáticas");
+
+    expect(profesor.nombre).toBe("Pedro");
+    expect(profesor.legajo).toBe(54325);
+    expect(profesor.materia).toBe("Matemáticas");
+  }); 
+  
 });
