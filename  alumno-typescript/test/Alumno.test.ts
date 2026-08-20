@@ -39,5 +39,11 @@ describe("Alumno", () => {
     const alumno = new Alumno(16, "Carlos");
 
     expect(alumno.obtenerEstado()).toBe("Menor de edad");
-  });       
+  });  
+  
+  test("un alumno de 20 años debe obtener el estado 'Mayor de edad'", () => {
+    const alumno = new Alumno(20, "Sofía");
+
+    expect(alumno.obtenerEstado()).toBe("Mayor de edad");
+  }); 
 });
