@@ -1,0 +1,24 @@
+{
+  "name": "prueba-con-vitest-ts-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+   "scripts": {
+    "test": "vitest run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IanZimmerK/prueba-con-vitest-ts-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/IanZimmerK/prueba-con-vitest-ts-node/issues"
+  },
+  "homepage": "https://github.com/IanZimmerK/prueba-con-vitest-ts-node#readme",
+  "devDependencies": {
+    "vitest": "^4.1.11"
+  }
+}
